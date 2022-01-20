@@ -1,0 +1,16 @@
+<?php
+
+namespace {{ namespace }};
+
+use {{ rootNamespace }}Http\Controllers\Controller;
+use Illuminate\Http\Request;
+
+//use App\Models\Model_Name;
+
+class {{ class }} extends Controller
+{
+    //
+    function index(Request $req){
+        return "Good Luck Boii";
+    }
+}
